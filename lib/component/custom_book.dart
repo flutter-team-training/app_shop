@@ -2,18 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CustomBook extends StatelessWidget {
-  CustomBook({
+  const CustomBook({
     super.key,
     required this.title,
     required this.describtion,
     required this.image,
-    this.subTitle,
   });
 
   final String title;
   final String describtion;
   final String image;
-  String? subTitle = '';
 
   @override
   Widget build(BuildContext context) {
