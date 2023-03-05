@@ -1,6 +1,4 @@
-import 'package:application_shop/utils/app_description.dart';
 import 'package:application_shop/utils/app_images.dart';
-import 'package:application_shop/utils/app_titles.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../component/custom_drawer.dart';
